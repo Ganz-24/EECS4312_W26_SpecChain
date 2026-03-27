@@ -63,7 +63,6 @@ python src/02_clean.py
 
 4. Generate groups + personas (requires Groq key):
 ```bash
-export GROQ_API_KEY="<your_key_here>"
 python src/05_personas_auto.py
 ```
 
