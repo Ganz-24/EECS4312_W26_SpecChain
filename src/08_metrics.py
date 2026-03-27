@@ -283,11 +283,52 @@ def run_pipeline(pipeline_name, groups, personas, spec, tests, output):
     write_json(Path(output), metrics)
     print(f"{pipeline_name} metrics saved to {output}")
 
+def build_summary(manual_metrics: dict[str, Any],
+                  automated_metrics: dict[str, Any],
+                  hybrid_metrics: dict[str, Any]) -> dict[str, Any]:
+
+    keys_to_keep = [
+        "dataset_size",
+        "persona_count",
+        "requirements_count",
+        "tests_count",
+        "traceability_links",
+        "review_coverage",
+        "traceability_ratio",
+        "testability_rate",
+        "ambiguity_ratio",
+    ]
+
+    def strip_pipeline(metrics: dict[str, Any]) -> dict[str, Any]:
+        return {key: metrics[key] for key in keys_to_keep}
+
+    return {
+        "manual": strip_pipeline(manual_metrics),
+        "automated": strip_pipeline(automated_metrics),
+        "hybrid": strip_pipeline(hybrid_metrics),
+    }
+
+def run_pipeline(pipeline_name, groups, personas, spec, tests, output):
+    reviews = read_jsonl(Path("data/reviews_clean.jsonl"))
+
+    metrics = compute_metrics(
+        reviews=reviews,
+        groups_payload=read_json(Path(groups)),
+        personas_payload=read_json(Path(personas)),
+        requirements=parse_spec_markdown(Path(spec)),
+        tests_payload=read_json(Path(tests)),
+        pipeline_name=pipeline_name,
+    )
+
+    write_json(Path(output), metrics)
+    print(f"{pipeline_name} metrics saved to {output}")
+    return metrics
+
 
 def main():
     args = parse_args()
 
-    if args.pipeline:
+    if args.pipeline is not None:
         run_pipeline(
             args.pipeline,
             args.groups,
@@ -300,7 +341,7 @@ def main():
 
     print("No pipeline specified. Running manual, automated, and hybrid pipelines...\n")
 
-    run_pipeline(
+    manual_metrics = run_pipeline(
         "manual",
         "data/review_groups_manual.json",
         "personas/personas_manual.json",
@@ -309,7 +350,7 @@ def main():
         "metrics/metrics_manual.json",
     )
 
-    run_pipeline(
+    automated_metrics = run_pipeline(
         "automated",
         "data/review_groups_auto.json",
         "personas/personas_auto.json",
@@ -318,7 +359,7 @@ def main():
         "metrics/metrics_auto.json",
     )
 
-    run_pipeline(
+    hybrid_metrics = run_pipeline(
         "hybrid",
         "data/review_groups_hybrid.json",
         "personas/personas_hybrid.json",
@@ -326,6 +367,14 @@ def main():
         "tests/tests_hybrid.json",
         "metrics/metrics_hybrid.json",
     )
+
+    summary = build_summary(
+        manual_metrics=manual_metrics,
+        automated_metrics=automated_metrics,
+        hybrid_metrics=hybrid_metrics,
+    )
+    write_json(Path("metrics/metrics_summary.json"), summary)
+    print("summary metrics saved to metrics/metrics_summary.json")
 
     print("\nAll metrics generated successfully.")
 
