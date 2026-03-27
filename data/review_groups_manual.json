@@ -1,12 +1,104 @@
-{
+  {
   "groups": [
     {
       "group_id": "G1",
-      "theme": "App crashes during activity logging, THIS IS A AN EXAMPLE, PLEASE REMOVE ",
-      "review_ids": ["rev_12", "rev_33", "rev_45", "rev_89"],
+      "theme": "Free, ad-free, and donation-based access",
+      "review_ids": [
+        "27178658-d633-4938-a84c-f65246464e96",
+        "19a29b2c-7db1-4da7-a523-6bdb6cf995ea",
+        "cf2c46d9-40ef-4143-9dcc-2fa0d968fd43",
+        "2c4899e3-7ce7-4574-837b-7ae26a56d3a8",
+        "fa417e9c-8b6f-4313-8eb2-8ad04c204cba",
+        "487f60e5-950a-4b11-a4fc-e99d8bb66b45",
+        "08190b18-bd4f-4069-80f2-038c94266386",
+        "2dbdc292-8ab0-44da-b0bb-7aa73be3d05a",
+        "7b516d01-5afc-4673-9d53-1ad7b9705a93",
+        "c7ced22a-ba0e-41a3-b66d-8f09c77dcab9"
+      ],
       "example_reviews": [
-        "The app crashes every time I log my run.",
-        "Logging workouts causes the app to freeze."
+        "excellent app meditation actually free great want start meditation habit without break bank",
+        "no ads no subscribtion great ui insanely wide variety sound meditation course absolutely zero app"
+      ]
+    },
+    {
+      "group_id": "G2",
+      "theme": "Beginner-friendly onboarding and easy first steps",
+      "review_ids": [
+        "59877fdc-6d06-4c13-97f9-8421738d61ae",
+        "628b17c1-06cb-40cd-84a8-2b79f61046bc",
+        "ca3380f8-6b20-48de-a5f4-3293bb2c4c75",
+        "5bbde312-88be-4b08-a219-11c1ab2f872a",
+        "07d31de2-d356-4b76-bc5b-0e67997293a4",
+        "d791c3fa-9183-4813-88c5-bc011e6b3165",
+        "be564749-2487-4ddd-b8ff-8aee87e56b67",
+        "249716e9-e855-4aed-b910-16c5889371b1",
+        "ed925089-e89b-46fb-81b1-89eec21ca762",
+        "78338995-0ca7-4abe-8914-a0fd94e18706"
+      ],
+      "example_reviews": [
+        "easy start beginner course very helpful someone has never meditate before",
+        "excellent app beginner start meditation journey"
+      ]
+    },
+    {
+      "group_id": "G3",
+      "theme": "Stress, anxiety, sleep, and emotional support",
+      "review_ids": [
+        "efb97a7f-0a34-4722-a0ef-a463b193a7e1",
+        "73c1ccfe-22e5-42d2-8bdf-d9bc2c7c3188",
+        "598c4e53-e8d2-444a-a765-7f3ceb07bdf6",
+        "5def7031-1870-4c7c-8d50-507d7278f787",
+        "6bb7136c-a874-4ce3-a47e-adc6636057cb",
+        "e1235541-90db-4186-9034-b3af62fc04b0",
+        "cf9ba8ab-fa01-451f-8134-e411baced5c7",
+        "efae6886-eb2d-43e9-aa4a-2f566104cb66",
+        "782e32c6-1d48-45af-8360-500a36e4cf31",
+        "575f4a9e-c452-40dd-aacf-ac2f40cd5bc5"
+      ],
+      "example_reviews": [
+        "app best app free personally help lot ease anger stress insomnia lot app maker make free app people suffer anxiety do great work",
+        "make calmer help sleep super grateful app"
+      ]
+    },
+    {
+      "group_id": "G4",
+      "theme": "Habit building, daily practice, and streak tracking",
+      "review_ids": [
+        "24300b64-c3c1-4365-9aba-7584641ae812",
+        "35be7a6e-e311-425e-a257-8b7f2a56c41c",
+        "c59528b3-f759-4d00-9e80-5108728c0697",
+        "59a3d4a2-d838-4938-94f1-69f5c5100595",
+        "eb1744ea-adbc-40a3-a724-73fd338554be",
+        "1d6a9209-75d4-44a3-b4b6-12fabdd1caa7",
+        "eb2dc99a-a09d-493f-a71e-3cc3b6d52f72",
+        "23a7b572-cd8e-4cc0-a214-9a8b89f7a942",
+        "ecfb23a8-55c1-48ee-a3aa-8f4668b1876d",
+        "b9b28e6b-c09b-4d72-bde7-26452deeb4f4"
+      ],
+      "example_reviews": [
+        "do every single day get clarity streak will help thank medito",
+        "very helpful really challenge consistency"
+      ]
+    },
+    {
+      "group_id": "G5",
+      "theme": "Reliability issues and feature improvement requests",
+      "review_ids": [
+        "843a80ec-f2f9-4558-b720-92341cc106bc",
+        "c46d2602-7094-409b-9eda-6699be423d34",
+        "d67ee88b-3421-4be2-a9e6-3a54689f6b70",
+        "f31ecf14-9b04-4e75-b753-ded5f046b267",
+        "0595aa68-046f-401b-b902-e5d159e87954",
+        "04243457-f7c6-4c82-8823-0677eb440406",
+        "f1c3bea3-31a7-4b4d-81e7-7aa1522e92a5",
+        "3d564cbb-335d-4095-80d1-30dec5406d93",
+        "86f8262d-f4c3-4dd9-b138-6efbf1bf399f",
+        "4bec1381-ad94-413f-88ec-a49438b8f52b"
+      ],
+      "example_reviews": [
+        "great app audio tend stop when earbud",
+        "please add option disable swipe gesture interfere phone own navigation gesture"
       ]
     }
-  ]}
+  ]
+}

@@ -1,0 +1,234 @@
+{
+  "personas": [
+    {
+      "id": "P1",
+      "name": "Satisfied User",
+      "description": "A user who is extremely satisfied with the app's overall experience",
+      "derived_from_group": "G1",
+      "goals": [
+        "To have a consistent meditation practice",
+        "To find an easy-to-use app"
+      ],
+      "pain_points": [
+        "None mentioned"
+      ],
+      "context": [
+        "Meditation is important for mental health"
+      ],
+      "constraints": [
+        "Willing to pay for a good app"
+      ],
+      "evidence_reviews": [
+        "2d76b31d-07b8-4ba4-b4ee-d0e734f505a7",
+        "64eeba24-f9f3-4237-9d16-4e47b3fdf44c"
+      ]
+    },
+    {
+      "id": "P2",
+      "name": "Frugal User",
+      "description": "A user who prioritizes free and affordable meditation apps",
+      "derived_from_group": "G2",
+      "goals": [
+        "To find a free meditation app",
+        "To save money"
+      ],
+      "pain_points": [
+        "Limited features in free apps"
+      ],
+      "context": [
+        "Budget-conscious"
+      ],
+      "constraints": [
+        "Willing to tolerate ads or limited features"
+      ],
+      "evidence_reviews": [
+        "5465eaee-7f35-4ce2-b002-93c545ef4861",
+        "c4e5800d-f320-40c0-ad9d-037a667d6111"
+      ]
+    },
+    {
+      "id": "P3",
+      "name": "Beginner User",
+      "description": "A new user who needs an easy-to-use app to start meditation",
+      "derived_from_group": "G3",
+      "goals": [
+        "To start a meditation practice",
+        "To learn meditation basics"
+      ],
+      "pain_points": [
+        "Difficulty navigating complex apps"
+      ],
+      "context": [
+        "New to meditation"
+      ],
+      "constraints": [
+        "Needs clear instructions and guidance"
+      ],
+      "evidence_reviews": [
+        "843a80ec-f2f9-4558-b720-92341cc106bc",
+        "59877fdc-6d06-4c13-97f9-8421738d61ae"
+      ]
+    },
+    {
+      "id": "P4",
+      "name": "Meditation Enthusiast",
+      "description": "A user who values high-quality meditation content",
+      "derived_from_group": "G4",
+      "goals": [
+        "To access a wide range of meditation content",
+        "To improve mental well-being"
+      ],
+      "pain_points": [
+        "Limited content in free apps"
+      ],
+      "context": [
+        "Experienced meditator"
+      ],
+      "constraints": [
+        "Willing to pay for premium content"
+      ],
+      "evidence_reviews": [
+        "19a29b2c-7db1-4da7-a523-6bdb6cf995ea",
+        "cf2c46d9-40ef-4143-9dcc-2fa0d968fd43"
+      ]
+    },
+    {
+      "id": "P5",
+      "name": "Tech-Savvy User",
+      "description": "A user who experiences technical issues with the app",
+      "derived_from_group": "G5",
+      "goals": [
+        "To resolve technical issues",
+        "To have a smooth user experience"
+      ],
+      "pain_points": [
+        "Technical issues with the app"
+      ],
+      "context": [
+        "Experienced with technology"
+      ],
+      "constraints": [
+        "Needs timely support and updates"
+      ],
+      "evidence_reviews": [
+        "032da267-54cd-470f-b081-d6c105a1fa19",
+        "04243457-f7c6-4c82-8823-0677eb440406"
+      ]
+    },
+    {
+      "id": "P6",
+      "name": "Feedback Provider",
+      "description": "A user who wants to provide feedback and suggestions",
+      "derived_from_group": "G6",
+      "goals": [
+        "To provide feedback",
+        "To improve the app"
+      ],
+      "pain_points": [
+        "Difficulty providing feedback"
+      ],
+      "context": [
+        "Cares about app development"
+      ],
+      "constraints": [
+        "Wants timely responses from support"
+      ],
+      "evidence_reviews": [
+        "d67ee88b-3421-4be2-a9e6-3a54689f6b70",
+        "7ac3234e-bd56-4924-a409-3416c9635ccd"
+      ]
+    },
+    {
+      "id": "P7",
+      "name": "Mental Health Seeker",
+      "description": "A user who uses meditation for mental health benefits",
+      "derived_from_group": "G7",
+      "goals": [
+        "To improve mental health",
+        "To find calm and relaxation"
+      ],
+      "pain_points": [
+        "Struggling with mental health issues"
+      ],
+      "context": [
+        "Seeking mental health support"
+      ],
+      "constraints": [
+        "Needs effective and accessible meditation tools"
+      ],
+      "evidence_reviews": [
+        "aad29bf1-a857-4ec9-9d29-3fa2fa94e28b",
+        "73c1ccfe-22e5-42d2-8bdf-d9bc2c7c3188"
+      ]
+    },
+    {
+      "id": "P8",
+      "name": "Feature Requester",
+      "description": "A user who wants additional features and updates",
+      "derived_from_group": "G8",
+      "goals": [
+        "To access more features",
+        "To enhance the app experience"
+      ],
+      "pain_points": [
+        "Limited features in current app"
+      ],
+      "context": [
+        "Wants to customize the app experience"
+      ],
+      "constraints": [
+        "Wants new features to be user-friendly"
+      ],
+      "evidence_reviews": [
+        "35be7a6e-e311-425e-a257-8b7f2a56c41c",
+        "3a8afb5f-8f8c-46ca-ba59-d426af625697"
+      ]
+    },
+    {
+      "id": "P9",
+      "name": "Donor",
+      "description": "A user who donates to support the app",
+      "derived_from_group": "G9",
+      "goals": [
+        "To support the app",
+        "To show appreciation"
+      ],
+      "pain_points": [
+        "Difficulty with donation process"
+      ],
+      "context": [
+        "Values the app's mission"
+      ],
+      "constraints": [
+        "Wants donation process to be easy"
+      ],
+      "evidence_reviews": [
+        "08190b18-bd4f-4069-80f2-038c94266386",
+        "cf5e9899-34b1-46f0-90ae-3f6ed3080f4f"
+      ]
+    },
+    {
+      "id": "P10",
+      "name": "Long-term User",
+      "description": "A user who has been using the app for a long time",
+      "derived_from_group": "G10",
+      "goals": [
+        "To maintain a consistent meditation practice",
+        "To continue using the app"
+      ],
+      "pain_points": [
+        "Occasional technical issues"
+      ],
+      "context": [
+        "Committed to meditation practice"
+      ],
+      "constraints": [
+        "Wants app to continue improving"
+      ],
+      "evidence_reviews": [
+        "24300b64-c3c1-4365-9aba-7584641ae812",
+        "c59528b3-f759-4d00-9e80-5108728c0697"
+      ]
+    }
+  ]
+}

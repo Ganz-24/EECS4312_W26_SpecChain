@@ -3,13 +3,112 @@
     {
       "test_id": "T_auto_1",
       "requirement_id": "FR_auto_1",
-      "scenario": "Logging a workout without crashing",
+      "scenario": "The app shall provide a consistent and easy-to-use meditation experience",
       "steps": [
-        "Open the workout logging screen",
-        "Enter workout details",
-        "Submit the workout"
+        "Set up precondition: a user with a consistent meditation practice.",
+        "Execute action: they open the app.",
+        "Observe system behavior and outputs."
       ],
-      "expected_result": "The workout is saved successfully and the application remains stable."
+      "expected_result": "they can easily navigate to their preferred meditation content."
+    },
+    {
+      "test_id": "T_auto_2",
+      "requirement_id": "FR_auto_2",
+      "scenario": "The app shall offer a free version with basic features",
+      "steps": [
+        "Set up precondition: a user who is budget-conscious.",
+        "Execute action: they download the app.",
+        "Observe system behavior and outputs."
+      ],
+      "expected_result": "they can access basic meditation features for free."
+    },
+    {
+      "test_id": "T_auto_3",
+      "requirement_id": "FR_auto_3",
+      "scenario": "The app shall provide clear instructions and guidance for new",
+      "steps": [
+        "Set up precondition: a new user.",
+        "Execute action: they start the app.",
+        "Observe system behavior and outputs."
+      ],
+      "expected_result": "they can access a beginner's guide to meditation and easy-to-follow instructions."
+    },
+    {
+      "test_id": "T_auto_4",
+      "requirement_id": "FR_auto_4",
+      "scenario": "The app shall offer a wide range of high-quality meditation",
+      "steps": [
+        "Set up precondition: an experienced meditator.",
+        "Execute action: they search for meditation content.",
+        "Observe system behavior and outputs."
+      ],
+      "expected_result": "they can find a variety of high-quality sessions to choose from."
+    },
+    {
+      "test_id": "T_auto_5",
+      "requirement_id": "FR_auto_5",
+      "scenario": "The app shall resolve technical issues promptly to ensure a",
+      "steps": [
+        "Set up precondition: a user experiencing technical issues.",
+        "Execute action: they report the issue.",
+        "Observe system behavior and outputs."
+      ],
+      "expected_result": "the support team shall respond within 24 hours and resolve the issue promptly."
+    },
+    {
+      "test_id": "T_auto_6",
+      "requirement_id": "FR_auto_6",
+      "scenario": "The app shall provide an easy way for users to",
+      "steps": [
+        "Set up precondition: a user who wants to provide feedback.",
+        "Execute action: they access the app's support system.",
+        "Observe system behavior and outputs."
+      ],
+      "expected_result": "they can easily submit their feedback and suggestions."
+    },
+    {
+      "test_id": "T_auto_7",
+      "requirement_id": "FR_auto_7",
+      "scenario": "The app shall provide effective and accessible meditation tools for",
+      "steps": [
+        "Set up precondition: a user seeking mental health support.",
+        "Execute action: they use the app's meditation tools.",
+        "Observe system behavior and outputs."
+      ],
+      "expected_result": "they can experience a reduction in stress and anxiety."
+    },
+    {
+      "test_id": "T_auto_8",
+      "requirement_id": "FR_auto_8",
+      "scenario": "The app shall allow users to customize their experience with",
+      "steps": [
+        "Set up precondition: a user who wants to customize their experience.",
+        "Execute action: they access the app's settings.",
+        "Observe system behavior and outputs."
+      ],
+      "expected_result": "they can choose from a variety of features and updates to enhance their experience."
+    },
+    {
+      "test_id": "T_auto_9",
+      "requirement_id": "FR_auto_9",
+      "scenario": "The app shall provide an easy donation process for users",
+      "steps": [
+        "Set up precondition: a user who wants to donate.",
+        "Execute action: they access the app's donation system.",
+        "Observe system behavior and outputs."
+      ],
+      "expected_result": "they can easily complete their donation using a preferred payment method."
+    },
+    {
+      "test_id": "T_auto_10",
+      "requirement_id": "FR_auto_10",
+      "scenario": "The app shall continue to improve and resolve technical issues",
+      "steps": [
+        "Set up precondition: a long-term user.",
+        "Execute action: they experience technical issues.",
+        "Observe system behavior and outputs."
+      ],
+      "expected_result": "the support team shall resolve the issue promptly and provide a positive user experience."
     }
   ]
 }

@@ -1,16 +1,214 @@
-
 {
   "tests": [
     {
-      "test_id": "T_auto_1",
+      "test_id": "T_manual_1",
       "requirement_id": "FR1",
-      "scenario": "Workout Logging Stability",
+      "scenario": "Core Library Accessible Without Payment",
       "steps": [
-        "Open the workout logging screen",
-        "Enter workout details",
-        "Submit the workout"
+        "Open the app without purchasing any subscription",
+        "Navigate to the main meditation library",
+        "Open a core meditation session"
       ],
-      "expected_result": "The workout is saved successfully and the application remains stable."
+      "expected_result": "The selected core meditation session opens and can be played without a payment gate."
+    },
+    {
+      "test_id": "T_manual_2",
+      "requirement_id": "FR1",
+      "scenario": "Free Session Playback for Signed-Out User",
+      "steps": [
+        "Install and open the app on a fresh device",
+        "Remain signed out or on a free account",
+        "Attempt to play a core guided session"
+      ],
+      "expected_result": "The core guided session plays successfully without requiring payment."
+    },
+    {
+      "test_id": "T_manual_3",
+      "requirement_id": "NFR1",
+      "scenario": "Donation Prompt Does Not Block Playback",
+      "steps": [
+        "Start a meditation session",
+        "Trigger any available donation prompt or navigate past a donation banner during use"
+      ],
+      "expected_result": "Meditation playback continues and the user can dismiss the donation prompt without blocking the session."
+    },
+    {
+      "test_id": "T_manual_4",
+      "requirement_id": "NFR1",
+      "scenario": "Donation Access Remains Optional",
+      "steps": [
+        "Open the app home screen",
+        "Locate any donation option",
+        "Ignore the donation option and continue into content"
+      ],
+      "expected_result": "The user can continue to meditation content without being forced to donate."
+    },
+    {
+      "test_id": "T_manual_5",
+      "requirement_id": "FR2",
+      "scenario": "Beginner Section Visible",
+      "steps": [
+        "Open the home screen",
+        "Scan the visible content sections"
+      ],
+      "expected_result": "A clearly labeled beginner section is visible."
+    },
+    {
+      "test_id": "T_manual_6",
+      "requirement_id": "FR2",
+      "scenario": "Beginner Session Available",
+      "steps": [
+        "Open the beginner section",
+        "Review the available content"
+      ],
+      "expected_result": "At least one guided introductory meditation session is listed."
+    },
+    {
+      "test_id": "T_manual_7",
+      "requirement_id": "NFR2",
+      "scenario": "Beginner Session Within Three Taps",
+      "steps": [
+        "Open the home screen",
+        "Count taps while navigating to a beginner session",
+        "Start a beginner session"
+      ],
+      "expected_result": "A beginner session starts within three taps from the home screen."
+    },
+    {
+      "test_id": "T_manual_8",
+      "requirement_id": "NFR2",
+      "scenario": "Low-Friction Onboarding Navigation",
+      "steps": [
+        "Open the app as a first-time user",
+        "Navigate from the home screen to beginner content"
+      ],
+      "expected_result": "The path to beginner content is direct and does not exceed three taps."
+    },
+    {
+      "test_id": "T_manual_9",
+      "requirement_id": "FR3",
+      "scenario": "Sleep Category Available",
+      "steps": [
+        "Open the content library",
+        "Review the available categories"
+      ],
+      "expected_result": "A sleep category is available in the library."
+    },
+    {
+      "test_id": "T_manual_10",
+      "requirement_id": "FR3",
+      "scenario": "Stress and Anxiety Categories Available",
+      "steps": [
+        "Open the content library",
+        "Review the available categories"
+      ],
+      "expected_result": "Stress and anxiety support categories are available in the library."
+    },
+    {
+      "test_id": "T_manual_11",
+      "requirement_id": "NFR3",
+      "scenario": "Playback Continues With Screen Off",
+      "steps": [
+        "Start a meditation session",
+        "Turn off the device screen"
+      ],
+      "expected_result": "The session continues playing without freezing, looping, or restarting."
+    },
+    {
+      "test_id": "T_manual_12",
+      "requirement_id": "NFR3",
+      "scenario": "Playback Continues With Earbuds",
+      "steps": [
+        "Connect earbuds",
+        "Start a meditation session",
+        "Listen for two minutes"
+      ],
+      "expected_result": "The session continues playing normally through the earbuds."
+    },
+    {
+      "test_id": "T_manual_13",
+      "requirement_id": "FR4",
+      "scenario": "Completed Session Updates Streak",
+      "steps": [
+        "Open the app while signed in",
+        "Complete a full meditation session",
+        "Check the streak or consistency status"
+      ],
+      "expected_result": "The streak or consistency value updates after the session is completed."
+    },
+    {
+      "test_id": "T_manual_14",
+      "requirement_id": "FR4",
+      "scenario": "Completed Session Recorded Once",
+      "steps": [
+        "Complete one meditation session",
+        "Open the progress area"
+      ],
+      "expected_result": "The session appears once in the progress record and the streak reflects one completion event."
+    },
+    {
+      "test_id": "T_manual_15",
+      "requirement_id": "FR5",
+      "scenario": "Progress Area Shows Completed Sessions",
+      "steps": [
+        "Open the app while signed in",
+        "Navigate to the progress area"
+      ],
+      "expected_result": "The app displays completed sessions in the user's progress view."
+    },
+    {
+      "test_id": "T_manual_16",
+      "requirement_id": "FR5",
+      "scenario": "Progress Area Shows Current Streak",
+      "steps": [
+        "Open the progress area",
+        "Inspect the visible summary information"
+      ],
+      "expected_result": "The current streak or consistency status is visible."
+    },
+    {
+      "test_id": "T_manual_17",
+      "requirement_id": "FR6",
+      "scenario": "Cross-Device Progress Sync",
+      "steps": [
+        "Sign in on device A and device B with the same account",
+        "Complete a session on device A",
+        "Refresh the account data on device B"
+      ],
+      "expected_result": "The completed session and progress data appear on device B."
+    },
+    {
+      "test_id": "T_manual_18",
+      "requirement_id": "FR6",
+      "scenario": "Cross-Device Streak Sync",
+      "steps": [
+        "Sign in on two devices with the same account",
+        "Complete a session on one device",
+        "Open the streak view on the second device"
+      ],
+      "expected_result": "The streak value on the second device matches the first device after sync."
+    },
+    {
+      "test_id": "T_manual_19",
+      "requirement_id": "FR7",
+      "scenario": "Downloaded Session Plays Offline",
+      "steps": [
+        "Download a meditation session",
+        "Enable airplane mode or disable network",
+        "Open the downloaded session"
+      ],
+      "expected_result": "The downloaded session opens and plays without network access."
+    },
+    {
+      "test_id": "T_manual_20",
+      "requirement_id": "FR7",
+      "scenario": "Only Downloaded Content Required for Offline Use",
+      "steps": [
+        "Download one meditation session",
+        "Disable network access",
+        "Attempt to play the downloaded session"
+      ],
+      "expected_result": "The downloaded session remains playable offline without showing a network error."
     }
   ]
 }

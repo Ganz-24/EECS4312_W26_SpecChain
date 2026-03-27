@@ -1,0 +1,23 @@
+{
+  "app_name": "Medito",
+  "app_id": "meditofoundation.medito",
+  "dataset_size": 5000,
+  "collection_method": {
+    "source": "Google Play Store",
+    "tool": "google-play-scraper",
+    "description": "Reviews were programmatically collected using the google-play-scraper Python library, retrieving the most recent reviews."
+  },
+  "cleaning_decisions": {
+    "deduplication": "Duplicate reviews removed based on identical cleaned content.",
+    "empty_entries": "Reviews with missing or empty content were removed.",
+    "short_reviews": "Reviews with fewer than 4 words after cleaning were removed.",
+    "lowercasing": "All text converted to lowercase.",
+    "punctuation_removal": "All punctuation and non-alphabetic characters removed using regex.",
+    "emoji_and_special_character_removal": "All emojis and special characters removed.",
+    "number_conversion": "Digits converted to their word equivalents (e.g., 5 → five).",
+    "whitespace_normalization": "Extra whitespace collapsed into single spaces.",
+    "stop_word_removal": "Common stop words removed using a predefined list.",
+    "lemmatization": "Basic rule-based lemmatization applied (e.g., 'running' → 'run', 'made' → 'make').",
+    "contraction_handling": "Common contractions expanded before processing (e.g., 'don't' → 'do not')."
+  }
+}

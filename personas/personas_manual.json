@@ -1,22 +1,148 @@
-{  "personas": [
+
+
+    {
+  "personas": [
     {
       "id": "P1",
-      "name": "Frequent Activity Tracker",
-      "description": "A user who relies on the app to log workouts frequently and expects stable performance.",
+      "name": "Budget-Conscious Mindfulness Seeker",
+      "description": "A user who wants high-quality meditation support without subscriptions, ads, or aggressive monetization.",
       "derived_from_group": "G1",
       "goals": [
-        "Track workouts consistently",
-        "Log activity quickly"      ],
+        "Access meditation content for free",
+        "Avoid ads, paywalls, and forced upgrades",
+        "Use an app that feels trustworthy and community-oriented"
+      ],
       "pain_points": [
-        "App crashes during logging",
-        "Workout data sometimes disappears"      ],
+        "Other meditation apps lock key features behind subscriptions",
+        "Donation prompts can become annoying if they interrupt the experience",
+        "Users do not want monetization pressure during meditation"
+      ],
       "context": [
-        "Logging activities immediately after workouts",
-        "Using the app during outdoor exercise"      ],
+        "Comparing Medito with paid wellness apps",
+        "Using meditation regularly but on a limited budget",
+        "Willing to donate voluntarily if the experience stays respectful"
+      ],
       "constraints": [
-        "Logging must be reliable",
-        "Data should not be lost"       ],
+        "Core content must remain accessible without payment",
+        "Donation requests should be optional and non-intrusive"
+      ],
       "evidence_reviews": [
-        "rev_12",
-        "rev_45"      ]
-    }  ] }
+        "27178658-d633-4938-a84c-f65246464e96",
+        "19a29b2c-7db1-4da7-a523-6bdb6cf995ea"
+      ]
+    },
+    {
+      "id": "P2",
+      "name": "First-Time Meditator",
+      "description": "A beginner who is starting meditation for the first time and needs clear guidance, simple navigation, and approachable lessons.",
+      "derived_from_group": "G2",
+      "goals": [
+        "Start meditating with confidence",
+        "Follow structured beginner lessons",
+        "Find sessions quickly without feeling overwhelmed"
+      ],
+      "pain_points": [
+        "Many meditation apps feel confusing or too advanced",
+        "Large content libraries can be hard to navigate at first",
+        "New users need reassurance that they are using the app correctly"
+      ],
+      "context": [
+        "Beginning a mindfulness habit",
+        "Using short guided sessions to learn technique",
+        "Exploring the app from a phone during daily routines"
+      ],
+      "constraints": [
+        "The interface must be simple for new users",
+        "Beginner content must be easy to discover"
+      ],
+      "evidence_reviews": [
+        "59877fdc-6d06-4c13-97f9-8421738d61ae",
+        "628b17c1-06cb-40cd-84a8-2b79f61046bc"
+      ]
+    },
+    {
+      "id": "P3",
+      "name": "User Seeking Calm, Sleep, and Emotional Relief",
+      "description": "A user who relies on meditation content to reduce stress, manage anxiety, sleep better, and feel emotionally stable.",
+      "derived_from_group": "G3",
+      "goals": [
+        "Reduce stress and anxiety",
+        "Sleep more easily",
+        "Use meditation during emotionally difficult moments"
+      ],
+      "pain_points": [
+        "Stress, insomnia, panic, or low mood can make it hard to focus",
+        "Users may need different content types for sleep versus anxiety relief",
+        "Poor playback or missing content can disrupt a calming routine"
+      ],
+      "context": [
+        "Using the app at night, during stressful moments, or during mental health challenges",
+        "Returning to specific sessions that help with sleep or grounding"
+      ],
+      "constraints": [
+        "Relevant content must be easy to locate",
+        "Playback must remain uninterrupted during listening"
+      ],
+      "evidence_reviews": [
+        "efb97a7f-0a34-4722-a0ef-a463b193a7e1",
+        "73c1ccfe-22e5-42d2-8bdf-d9bc2c7c3188"
+      ]
+    },
+    {
+      "id": "P4",
+      "name": "Consistency-Driven Daily User",
+      "description": "A repeat user who meditates often and wants streaks, reminders, and progress features to support long-term habit formation.",
+      "derived_from_group": "G4",
+      "goals": [
+        "Maintain a daily meditation habit",
+        "Track consistency over time",
+        "Recover quickly when progress data looks wrong"
+      ],
+      "pain_points": [
+        "Broken streaks reduce motivation",
+        "Users want habit support without being punished unfairly",
+        "Progress tracking can feel unreliable if sessions are not recorded correctly"
+      ],
+      "context": [
+        "Opening the app every day or almost every day",
+        "Using challenges, streaks, and daily sessions as motivation"
+      ],
+      "constraints": [
+        "Progress tracking must be accurate",
+        "Habit features must reflect completed sessions consistently"
+      ],
+      "evidence_reviews": [
+        "24300b64-c3c1-4365-9aba-7584641ae812",
+        "35be7a6e-e311-425e-a257-8b7f2a56c41c"
+      ]
+    },
+    {
+      "id": "P5",
+      "name": "Mobile User Facing Playback and Usability Friction",
+      "description": "A user who values Medito but is blocked by audio interruptions, sync problems, missing offline access, or feature gaps.",
+      "derived_from_group": "G5",
+      "goals": [
+        "Complete sessions without technical interruptions",
+        "Keep progress synced across devices",
+        "Use helpful controls such as reminders, timers, and offline playback"
+      ],
+      "pain_points": [
+        "Audio can stop when the screen turns off or when earbuds are connected",
+        "Cross-device streaks and progress can fail",
+        "Some useful controls are missing or hard to find"
+      ],
+      "context": [
+        "Using the app on different phones, with earbuds, or in low-connectivity settings",
+        "Trying to meditate while sleeping, traveling, or switching devices"
+      ],
+      "constraints": [
+        "Playback must stay stable across common device states",
+        "Important controls should be visible and easy to use"
+      ],
+      "evidence_reviews": [
+        "843a80ec-f2f9-4558-b720-92341cc106bc",
+        "c46d2602-7094-409b-9eda-6699be423d34"
+      ]
+    }
+  ]
+}

@@ -1,13 +1,186 @@
 {
   "groups": [
     {
-      "group_id": "A1",
-      "theme": "Workout logging issues",
-      "review_ids": ["rev_12", "rev_33", "rev_41", "rev_92"],
+      "group_id": "G1",
+      "theme": "Overall Satisfaction",
+      "review_ids": [
+        "2d76b31d-07b8-4ba4-b4ee-d0e734f505a7",
+        "64eeba24-f9f3-4237-9d16-4e47b3fdf44c",
+        "eb1744ea-adbc-40a3-a724-73fd338554be"
+      ],
       "example_reviews": [
-        "The app crashes whenever I try to log a run.",
-        "Logging workouts causes the app to freeze."
+        "best app ever used",
+        "best meditation app ever"
       ]
+    },
+    {
+      "group_id": "G2",
+      "theme": "Free and Affordable",
+      "review_ids": [
+        "5465eaee-7f35-4ce2-b002-93c545ef4861",
+        "c4e5800d-f320-40c0-ad9d-037a667d6111",
+        "27178658-d633-4938-a84c-f65246464e96"
+      ],
+      "example_reviews": [
+        "did everyth ever need free",
+        "best app do not force pay"
+      ]
+    },
+    {
+      "group_id": "G3",
+      "theme": "Ease of Use",
+      "review_ids": [
+        "843a80ec-f2f9-4558-b720-92341cc106bc",
+        "59877fdc-6d06-4c13-97f9-8421738d61ae",
+        "16076920-894b-4ce5-af66-5a926aff5360"
+      ],
+      "example_reviews": [
+        "do like app start using sleep now am gradually ngo through course am not sure how will aid daily life yet",
+        "easy start beginner course very helpful someone has never meditate before"
+      ]
+    },
+    {
+      "group_id": "G4",
+      "theme": "Meditation Content and Quality",
+      "review_ids": [
+        "19a29b2c-7db1-4da7-a523-6bdb6cf995ea",
+        "cf2c46d9-40ef-4143-9dcc-2fa0d968fd43",
+        "b789e2f4-4469-4d03-b984-431478812c58"
+      ],
+      "example_reviews": [
+        "medito compar any other application has been offer quality guid meditation free quite some time now",
+        "former user headspace can say truly enjoy using beautiful well design meditation app also genuinely free"
+      ]
+    },
+    {
+      "group_id": "G5",
+      "theme": "Technical Issues",
+      "review_ids": [
+        "032da267-54cd-470f-b081-d6c105a1fa19",
+        "04243457-f7c6-4c82-8823-0677eb440406",
+        "f31ecf14-9b04-4e75-b753-ded5f046b267"
+      ],
+      "example_reviews": [
+        "nag screen did not go away after donate couple dollar",
+        "good app unfortunately whenever screen goe black app also stop happen xiaomi phone there noth can do about"
+      ]
+    },
+    {
+      "group_id": "G6",
+      "theme": "Support and Feedback",
+      "review_ids": [
+        "d67ee88b-3421-4be2-a9e6-3a54689f6b70",
+        "7ac3234e-bd56-4924-a409-3416c9635ccd",
+        "0595aa68-046f-401b-b902-e5d159e87954"
+      ],
+      "example_reviews": [
+        "love guy just feedback could add confirmation screen when click sign out thank",
+        "great app has been hugely positive mental health small tidbit feedback would appreciate button which mark specific meditation complet"
+      ]
+    },
+    {
+      "group_id": "G7",
+      "theme": "Mental Health Benefits",
+      "review_ids": [
+        "aad29bf1-a857-4ec9-9d29-3fa2fa94e28b",
+        "73c1ccfe-22e5-42d2-8bdf-d9bc2c7c3188",
+        "50a52508-b7cc-4330-8955-a20d9c1cebcc"
+      ],
+      "example_reviews": [
+        "good fix mental health",
+        "make calmer help sleep super grateful app"
+      ]
+    },
+    {
+      "group_id": "G8",
+      "theme": "App Features and Updates",
+      "review_ids": [
+        "35be7a6e-e311-425e-a257-8b7f2a56c41c",
+        "3a8afb5f-8f8c-46ca-ba59-d426af625697",
+        "f1c3bea3-31a7-4b4d-81e7-7aa1522e92a5"
+      ],
+      "example_reviews": [
+        "only meditation app straight point visual minimalism easy follow lovely instructor option silent meditation latest update everyth tick off got fix streak can frozen optionally",
+        "how get five star except change device lost track progress which disappoint no five star"
+      ]
+    },
+    {
+      "group_id": "G9",
+      "theme": "Donation and Monetization",
+      "review_ids": [
+        "08190b18-bd4f-4069-80f2-038c94266386",
+        "cf5e9899-34b1-46f0-90ae-3f6ed3080f4f",
+        "304681ad-7c84-4a06-a605-bd50c27b3d34"
+      ],
+      "example_reviews": [
+        "love app its free use not ask single penny u want donate thank change life",
+        "best meditation app u can get free even better than some paid too"
+      ]
+    },
+    {
+      "group_id": "G10",
+      "theme": "Long-term Use and Engagement",
+      "review_ids": [
+        "24300b64-c3c1-4365-9aba-7584641ae812",
+        "c59528b3-f759-4d00-9e80-5108728c0697",
+        "8ba4f39b-10ee-4950-a185-881fd1569b93"
+      ],
+      "example_reviews": [
+        "do every single day get clarity streak will help thank medito",
+        "absolutely would recommend use daily meditation has help lot"
+      ]
+    },
+    {
+      "group_id": "G11",
+      "theme": "uncategorized residual reviews",
+      "review_ids": [
+        "07d31de2-d356-4b76-bc5b-0e67997293a4",
+        "0812e677-4bc8-4bfa-9d36-13a1aa22167e",
+        "20073fc6-a2bc-41a7-b638-f4bd128a23ed",
+        "27014f68-937e-456f-9f30-6f178c4a90d9",
+        "2c4899e3-7ce7-4574-837b-7ae26a56d3a8",
+        "2dbdc292-8ab0-44da-b0bb-7aa73be3d05a",
+        "2e85e94c-f98f-47c6-b3c8-8829dc313ed8",
+        "36f057a8-708d-4752-88ec-76455f0f386d",
+        "3d36e52e-a022-45d9-9fd2-7187c9cc48f3",
+        "3d564cbb-335d-4095-80d1-30dec5406d93",
+        "43a02e6a-93a0-4e0d-b65d-37b2b05f653e",
+        "43b41fa7-a5ce-416b-a088-7c39e2a01853",
+        "487f60e5-950a-4b11-a4fc-e99d8bb66b45",
+        "49b510db-68fb-4901-af95-187620a3fa08",
+        "4bec1381-ad94-413f-88ec-a49438b8f52b",
+        "4d18d145-0f78-4880-9b19-f7f9a555c77e",
+        "55b2964a-fe1f-4b8e-bdd5-882ae6310566",
+        "598c4e53-e8d2-444a-a765-7f3ceb07bdf6",
+        "59a3d4a2-d838-4938-94f1-69f5c5100595",
+        "5bbde312-88be-4b08-a219-11c1ab2f872a",
+        "61e67238-4854-4bbc-98a5-19bbd919961a",
+        "6dfabfc4-e16e-4567-944c-ba99c9346f8f",
+        "70e032cd-283e-49e3-9bb1-64e90d9f335c",
+        "7d45f5be-d675-46ec-aa60-68e21b2699a8",
+        "7d79559a-951c-4d38-9ddf-f6e216eed1f4",
+        "841b319e-392b-455f-942a-af421fa98531",
+        "860e248f-50d3-45c9-99ad-6ac9941e4aa4",
+        "86f8262d-f4c3-4dd9-b138-6efbf1bf399f",
+        "8c4f1c7f-06a2-4c2d-9a21-303c28cba2c7",
+        "9a7bb5c0-8d34-4536-ae0a-a6c720f5d4fc",
+        "9bfb825a-fb2c-4bf3-aee3-3c1028b573b3",
+        "9dadda91-1508-4502-a4ce-bd460f276e14",
+        "9ee31d57-63cc-4d14-a30a-dfedd4779ffd",
+        "a0071735-8a27-4cf6-85d2-9cfc5c93b533",
+        "bb17a883-3523-424e-8f97-9dd3de0e4741",
+        "bf9b44ae-4b55-4e2c-85b7-ebe4985dc2c0",
+        "c46d2602-7094-409b-9eda-6699be423d34",
+        "d46b4ea0-ac38-4e66-9b60-534468e1eda8",
+        "db597c20-e90f-43c4-9f59-16d3d7f6039f",
+        "df052e74-c4e1-4d69-95e4-3bce7aa79f83",
+        "e3f8dff0-db7f-45d6-89ac-86ad0ccd5963",
+        "e498d9c9-2c9f-4b6c-9ee9-9f7298c48540",
+        "efb97a7f-0a34-4722-a0ef-a463b193a7e1",
+        "f05e6006-8366-48bf-ad6b-8450849eb2a7",
+        "fa417e9c-8b6f-4313-8eb2-8ad04c204cba"
+      ],
+      "example_reviews": []
     }
   ]
 }
