@@ -1,31 +1,267 @@
 {
   "personas": [
     {
-      "id": "P_hybrid_1",
-      "name": "Frequent Fitness Logger",
-      "description": "A user who depends on the app for regular workout tracking and expects logging to work reliably during or immediately after exercise.",
-      "derived_from_group": "H1",
+      "id": "P1",
+      "name": "Value Conscious Free User",
+      "description": "A user who values meditation support that is genuinely free, accessible, and not locked behind forced payment.",
+      "derived_from_group": "G2",
       "goals": [
-        "Log workouts quickly",
-        "Track activities without interruption"
+        "To access useful meditation content without mandatory payment",
+        "To use an app that offers strong value compared with paid alternatives",
+        "To optionally support the app through donation when the experience feels worthwhile"
       ],
       "pain_points": [
-        "The app crashes while saving workouts",
-        "Previously entered activity data may disappear"
+        "Apps that pressure users to subscribe before they can meaningfully use the service",
+        "Donation or payment flows that do not work properly"
       ],
       "context": [
-        "Using the app during exercise sessions",
-        "Using the app outdoors or while moving"
+        "May be cost sensitive or simply prefers tools that are accessible to everyone",
+        "Appreciates the mission of keeping meditation content free"
       ],
       "constraints": [
-        "Workout logging must complete without crashing",
-        "Saved workout data must persist"
+        "Core content should remain available without requiring purchase",
+        "Optional donation flows should be simple and reliable"
       ],
       "evidence_reviews": [
-        "rev_12",
-        "rev_41"
+        "5465eaee-7f35-4ce2-b002-93c545ef4861",
+        "c4e5800d-f320-40c0-ad9d-037a667d6111",
+        "27178658-d633-4938-a84c-f65246464e96",
+        "08190b18-bd4f-4069-80f2-038c94266386",
+        "cf5e9899-34b1-46f0-90ae-3f6ed3080f4f",
+        "304681ad-7c84-4a06-a605-bd50c27b3d34"
       ],
-      "notes": "Refined the persona description and removed an unsupported assumption about synchronization."
+      "notes": "Merged the free access and donation personas into one grounded persona. Removed unsupported claims about tolerating ads or limited features."
+    },
+    {
+      "id": "P2",
+      "name": "Beginner Seeking a Simple Start",
+      "description": "A user who is new to meditation and wants an app that feels simple, approachable, and easy to begin using right away.",
+      "derived_from_group": "G3",
+      "goals": [
+        "To start meditating without feeling overwhelmed",
+        "To follow beginner friendly guidance and courses",
+        "To use an interface that is simple to understand"
+      ],
+      "pain_points": [
+        "Complex or cluttered meditation apps",
+        "Losing progress or streak information across devices"
+      ],
+      "context": [
+        "New to meditation or still building comfort with the practice",
+        "May be exploring meditation for sleep or daily well being"
+      ],
+      "constraints": [
+        "Needs clear, beginner friendly guidance",
+        "Needs a simple interface that does not require much setup or prior knowledge"
+      ],
+      "evidence_reviews": [
+        "843a80ec-f2f9-4558-b720-92341cc106bc",
+        "59877fdc-6d06-4c13-97f9-8421738d61ae",
+        "16076920-894b-4ce5-af66-5a926aff5360"
+      ],
+      "notes": "Kept the core beginner persona, but grounded it more tightly in ease of use and removed vague language."
+    },
+    {
+      "id": "P3",
+      "name": "Content Focused Meditation User",
+      "description": "A user who chooses the app based on the quality, variety, and overall design of the guided meditation content.",
+      "derived_from_group": "G4",
+      "goals": [
+        "To access high quality guided meditations",
+        "To use an app with enjoyable and well designed meditation content",
+        "To continue using content that supports an ongoing meditation journey"
+      ],
+      "pain_points": [
+        "Meditation apps with weaker content quality or less useful guidance",
+        "Poorly designed experiences that reduce enjoyment of the content"
+      ],
+      "context": [
+        "May compare Medito with other meditation apps",
+        "May already have some experience using guided meditation content"
+      ],
+      "constraints": [
+        "Needs content that feels well made and worthwhile to return to",
+        "Needs a design that supports rather than distracts from meditation"
+      ],
+      "evidence_reviews": [
+        "19a29b2c-7db1-4da7-a523-6bdb6cf995ea",
+        "cf2c46d9-40ef-4143-9dcc-2fa0d968fd43",
+        "b789e2f4-4469-4d03-b984-431478812c58"
+      ],
+      "notes": "Removed unsupported assumptions like 'willing to pay for premium content' and made the persona about content quality and design, which the reviews actually support."
+    },
+    {
+      "id": "P4",
+      "name": "User Affected by Reliability Issues",
+      "description": "A user who likes the app but becomes frustrated when bugs, playback failures, or interaction issues interrupt meditation sessions.",
+      "derived_from_group": "G5",
+      "goals": [
+        "To complete meditation sessions without crashes or interruptions",
+        "To have playback and interaction features work consistently",
+        "To rely on the app during meditation without needing workarounds"
+      ],
+      "pain_points": [
+        "Screens or prompts not disappearing as expected",
+        "Sessions stopping when the screen turns off",
+        "Gestures or interface behavior interfering with device navigation"
+      ],
+      "context": [
+        "Uses the app in real sessions where interruptions break focus",
+        "May be using specific devices or phone settings that expose reliability issues"
+      ],
+      "constraints": [
+        "Playback and core session controls must work reliably during use",
+        "The interface must avoid interfering with common device interactions"
+      ],
+      "evidence_reviews": [
+        "032da267-54cd-470f-b081-d6c105a1fa19",
+        "04243457-f7c6-4c82-8823-0677eb440406",
+        "f31ecf14-9b04-4e75-b753-ded5f046b267"
+      ],
+      "notes": "Removed the unsupported label 'Tech-Savvy User' and focused the persona on reliability problems directly mentioned in the reviews."
+    },
+    {
+      "id": "P5",
+      "name": "Engaged User with Improvement Suggestions",
+      "description": "A user who actively notices friction in the experience and wants small but meaningful improvements that make the app easier to use.",
+      "derived_from_group": "G6",
+      "goals": [
+        "To use the app smoothly without avoidable friction",
+        "To suggest improvements that make the experience clearer and more useful",
+        "To have progress and completion reflected accurately"
+      ],
+      "pain_points": [
+        "Missing confirmation before sign out",
+        "No easy way to mark a meditation as completed",
+        "Updates that disrupt tracking or editing of stats"
+      ],
+      "context": [
+        "Uses the app regularly enough to notice workflow and tracking issues",
+        "Provides feedback because the app is already valuable to them"
+      ],
+      "constraints": [
+        "Needs clear confirmation for actions with consequences",
+        "Needs progress related actions to be easy to understand and control"
+      ],
+      "evidence_reviews": [
+        "d67ee88b-3421-4be2-a9e6-3a54689f6b70",
+        "7ac3234e-bd56-4924-a409-3416c9635ccd",
+        "0595aa68-046f-401b-b902-e5d159e87954"
+      ],
+      "notes": "Refined the persona around actionable feedback and removed unsupported generalizations about support response expectations."
+    },
+    {
+      "id": "P6",
+      "name": "User Seeking Calm and Emotional Support",
+      "description": "A user who turns to meditation primarily for calm, sleep support, or improved emotional well being.",
+      "derived_from_group": "G7",
+      "goals": [
+        "To feel calmer and more emotionally balanced",
+        "To use meditation as support for sleep or mental well being",
+        "To keep using practices that make a noticeable positive difference"
+      ],
+      "pain_points": [
+        "Stress, poor sleep, or emotional difficulty that motivate app use",
+        "Need for tools that are accessible when support is needed"
+      ],
+      "context": [
+        "Uses the app as part of personal well being rather than only out of curiosity",
+        "Values noticeable emotional or sleep related benefits from meditation"
+      ],
+      "constraints": [
+        "Needs the app to make calming content easy to access",
+        "Needs sessions to be simple enough to use during vulnerable or stressful moments"
+      ],
+      "evidence_reviews": [
+        "aad29bf1-a857-4ec9-9d29-3fa2fa94e28b",
+        "73c1ccfe-22e5-42d2-8bdf-d9bc2c7c3188",
+        "50a52508-b7cc-4330-8955-a20d9c1cebcc"
+      ],
+      "notes": "Kept the mental health oriented persona but removed overly broad or clinical phrasing not supported by the reviews."
+    },
+    {
+      "id": "P7",
+      "name": "Progress Conscious Cross Device User",
+      "description": "A user who wants progress, streaks, and session history to remain accurate and available across device changes or reinstalls.",
+      "derived_from_group": "G8A",
+      "goals": [
+        "To keep track of meditation progress over time",
+        "To avoid losing progress when changing devices or reinstalling the app",
+        "To trust the app's record of completed activity"
+      ],
+      "pain_points": [
+        "Losing progress after changing devices",
+        "Weak or missing synchronization and persistence of user history"
+      ],
+      "context": [
+        "Uses the app over time and cares about visible continuity of practice",
+        "May use more than one device or replace devices"
+      ],
+      "constraints": [
+        "Progress data should persist reliably across device changes",
+        "Tracking features should behave consistently enough to be trusted"
+      ],
+      "evidence_reviews": [
+        "3a8afb5f-8f8c-46ca-ba59-d426af625697"
+      ],
+      "notes": "Split from the broad feature request persona so that persistence and tracking concerns remain explicit and traceable."
+    },
+    {
+      "id": "P8",
+      "name": "User Wanting Practical Feature Improvements",
+      "description": "A user who appreciates the app but wants additional features or refinements that better support real use cases like flexible playback or session flow.",
+      "derived_from_group": "G8B",
+      "goals": [
+        "To benefit from updates that improve how the app fits real routines",
+        "To access features that support smoother meditation or sleep use",
+        "To keep the app useful without making it cluttered"
+      ],
+      "pain_points": [
+        "Having to reopen or manage the app during relaxation",
+        "Missing quality of life features that would improve session flow"
+      ],
+      "context": [
+        "Already likes the app and notices the effect of updates",
+        "Uses the app in situations like bedtime or repeated session playback"
+      ],
+      "constraints": [
+        "New features should improve usability without adding unnecessary complexity",
+        "Updates should preserve the app's simple feel"
+      ],
+      "evidence_reviews": [
+        "35be7a6e-e311-425e-a257-8b7f2a56c41c",
+        "f1c3bea3-31a7-4b4d-81e7-7aa1522e92a5"
+      ],
+      "notes": "Separated this persona from progress sync concerns and grounded it in concrete feature and update requests."
+    },
+    {
+      "id": "P9",
+      "name": "Consistency Oriented Daily User",
+      "description": "A user who meditates regularly and values support for maintaining a daily habit over time.",
+      "derived_from_group": "G10",
+      "goals": [
+        "To maintain a consistent daily meditation routine",
+        "To stay motivated through ongoing use of the app",
+        "To continue using an app that supports long term practice"
+      ],
+      "pain_points": [
+        "Anything that disrupts consistency, such as broken streak support or unreliable tracking",
+        "Tools that are not motivating enough to support long term routine building"
+      ],
+      "context": [
+        "Uses the app repeatedly over time rather than only occasionally",
+        "Sees meditation as a habit that benefits from consistency"
+      ],
+      "constraints": [
+        "Needs the app to support habit continuity over long periods",
+        "Needs engagement features to reinforce, not interrupt, regular practice"
+      ],
+      "evidence_reviews": [
+        "24300b64-c3c1-4365-9aba-7584641ae812",
+        "c59528b3-f759-4d00-9e80-5108728c0697",
+        "8ba4f39b-10ee-4950-a185-881fd1569b93"
+      ],
+      "notes": "Refined the long- erm user persona to focus on consistency and habit support rather than vague loyalty."
     }
   ]
 }

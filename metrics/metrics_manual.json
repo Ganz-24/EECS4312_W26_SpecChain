@@ -4,9 +4,9 @@
   "persona_count": 5,
   "requirements_count": 10,
   "tests_count": 20,
-  "traceability_links": 85,
-  "review_coverage": 0.0135,
-  "traceability_ratio": 1.0,
+  "traceability_links": 25,
+  "review_coverage": 0.0027,
+  "traceability_ratio": 0.7143,
   "testability_rate": 1.0,
   "ambiguity_ratio": 0.0
 }

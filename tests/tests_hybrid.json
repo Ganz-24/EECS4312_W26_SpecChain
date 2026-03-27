@@ -3,14 +3,135 @@
     {
       "test_id": "T_hybrid_1",
       "requirement_id": "FR_hybrid_1",
-      "scenario": "Save a workout entry without crashing",
+      "scenario": "Access a meditation session without payment",
       "steps": [
-        "Open the workout logging feature",
-        "Enter workout information",
-        "Submit the workout"
+        "Install and open the app as a new user",
+        "Browse the available meditation sessions",
+        "Select one available meditation session",
+        "Attempt to start the session without entering payment information"
       ],
-      "expected_result": "The workout is saved successfully and the application does not crash.",
-      "notes": "Revised the expected result to match the updated hybrid requirement."
+      "expected_result": "The selected meditation session starts without requiring payment.",
+      "notes": "Revised from the automated test to match the updated hybrid requirement for free access to core meditation content."
+    },
+    {
+      "test_id": "T_hybrid_2",
+      "requirement_id": "FR_hybrid_2",
+      "scenario": "Complete a donation transaction successfully",
+      "steps": [
+        "Open the donation feature in the app",
+        "Enter valid payment details",
+        "Submit the donation"
+      ],
+      "expected_result": "The donation is processed successfully and a confirmation message is displayed.",
+      "notes": "Rewritten to test the donation flow directly instead of using vague wording about affordability."
+    },
+    {
+      "test_id": "T_hybrid_3",
+      "requirement_id": "FR_hybrid_3",
+      "scenario": "Access the beginner meditation course from the main interface",
+      "steps": [
+        "Open the app as a new user",
+        "View the main interface",
+        "Locate the beginner meditation course"
+      ],
+      "expected_result": "A beginner meditation course is visible on the main interface and can be selected.",
+      "notes": "Revised to align with the hybrid requirement that specifies presence and accessibility of the beginner course."
+    },
+    {
+      "test_id": "T_hybrid_4",
+      "requirement_id": "FR_hybrid_4",
+      "scenario": "Start a meditation session within two interactions from the home screen",
+      "steps": [
+        "Open the app and remain on the home screen",
+        "Count each user interaction",
+        "Attempt to start a meditation session"
+      ],
+      "expected_result": "A meditation session begins within two user interactions from the home screen.",
+      "notes": "Rewritten to make the usability constraint measurable and directly testable."
+    },
+    {
+      "test_id": "T_hybrid_5",
+      "requirement_id": "FR_hybrid_5",
+      "scenario": "View the title and duration of each meditation session before selection",
+      "steps": [
+        "Open the app",
+        "Navigate to the list of meditation sessions",
+        "Inspect the information shown for each session before selecting one"
+      ],
+      "expected_result": "Each listed meditation session displays both a title and a duration before selection.",
+      "notes": "Updated to match the refined content display requirement and remove subjective quality claims."
+    },
+    {
+      "test_id": "T_hybrid_6",
+      "requirement_id": "FR_hybrid_6",
+      "scenario": "Continue audio playback when the device screen turns off",
+      "steps": [
+        "Open the app",
+        "Start a meditation session with audio playback",
+        "Turn off the device screen while the session is playing"
+      ],
+      "expected_result": "Audio playback continues without interruption after the device screen turns off.",
+      "notes": "Revised to test the specific reliability issue mentioned in the reviews."
+    },
+    {
+      "test_id": "T_hybrid_7",
+      "requirement_id": "FR_hybrid_7",
+      "scenario": "Display a confirmation prompt before signing out",
+      "steps": [
+        "Open the app while logged in",
+        "Select the sign out option"
+      ],
+      "expected_result": "A confirmation prompt is displayed before the user is signed out.",
+      "notes": "Rewritten to match the updated hybrid requirement for sign out confirmation."
+    },
+    {
+      "test_id": "T_hybrid_8",
+      "requirement_id": "FR_hybrid_8",
+      "scenario": "Manually mark a meditation session as completed",
+      "steps": [
+        "Start a meditation session",
+        "Exit the session before it finishes",
+        "Select the option to mark the session as completed"
+      ],
+      "expected_result": "The session is recorded as completed after the user selects the completion option.",
+      "notes": "Updated to reflect the concrete feature request from the hybrid requirement."
+    },
+    {
+      "test_id": "T_hybrid_9",
+      "requirement_id": "FR_hybrid_9",
+      "scenario": "Restore progress data after login on a new device",
+      "steps": [
+        "Create or use an account with existing progress data",
+        "Log in to the same account on a new device",
+        "Open the progress section"
+      ],
+      "expected_result": "Previously recorded progress data is restored and visible on the new device.",
+      "notes": "Rewritten to directly test cross device progress restoration supported by the review evidence."
+    },
+    {
+      "test_id": "T_hybrid_10",
+      "requirement_id": "FR_hybrid_10",
+      "scenario": "Play multiple meditation sessions sequentially without manual interaction",
+      "steps": [
+        "Open the app",
+        "Select multiple meditation sessions for playback",
+        "Start playback",
+        "Observe the transition between sessions"
+      ],
+      "expected_result": "The selected sessions play one after another without requiring further user interaction between sessions.",
+      "notes": "Updated to test the specific sequential playback feature instead of vague customization behavior."
+    },
+    {
+      "test_id": "T_hybrid_11",
+      "requirement_id": "FR_hybrid_11",
+      "scenario": "Track and display a consecutive day meditation streak",
+      "steps": [
+        "Complete a meditation session on one day",
+        "Complete another meditation session on the following day",
+        "Open the progress or streak display"
+      ],
+      "expected_result": "The system displays a streak count of 2 consecutive days.",
+      "notes": "Revised to make streak tracking measurable and directly tied to the hybrid requirement."
     }
   ]
 }

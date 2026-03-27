@@ -1,13 +1,154 @@
-{  "groups": [
+{
+  "groups": [
     {
-      "group_id": "H1",
-      "theme": "Workout logging failures during activity tracking",
-      "review_ids": ["rev_12", "rev_33", "rev_41", "rev_92"],
-      "example_reviews": [
-        "The app crashes whenever I try to log a run.",
-        "Logging workouts causes the app to freeze."
+      "group_id": "G2",
+      "theme": "Free Access and Donation Model",
+      "review_ids": [
+        "5465eaee-7f35-4ce2-b002-93c545ef4861",
+        "c4e5800d-f320-40c0-ad9d-037a667d6111",
+        "27178658-d633-4938-a84c-f65246464e96",
+        "08190b18-bd4f-4069-80f2-038c94266386",
+        "cf5e9899-34b1-46f0-90ae-3f6ed3080f4f",
+        "304681ad-7c84-4a06-a605-bd50c27b3d34"
       ],
-      "notes": "Removed one unrelated review about login problems from the original automated group."
+      "example_reviews": [
+        "did everything I've ever needed, for free",
+        "the best app and they don't force you to pay ❤️",
+        "An excellent app for meditation that is actually free! Great for those who want to start a meditation habit without breaking the bank.",
+        "i love this app . its free to use and not ask for single penny. if u want donate it . thank you for change my life.",
+        "the best meditation app u can get for free... even better than some paid ones too.",
+        "An excellent app!! Simple but with plenty of content. Great for sleep , snoozing and meditation support. I'm ex-Calm and after over 800 sessions there, fancied something a bit simpler. I'm a long-term meditator who did a TM course many years ago, so I understand mediation practice pretty well. Happy to make a donation, which I've just done via the Shop. It doesn't work on the app. The donation button doesn't work on my phone."
+      ],
+      "notes": "Merged 'Free and Affordable' and 'Donation and Monetization' into one theme. Example text now uses exact raw review wording."
+    },
+    {
+      "group_id": "G3",
+      "theme": "Ease of Use for Beginners",
+      "review_ids": [
+        "843a80ec-f2f9-4558-b720-92341cc106bc",
+        "59877fdc-6d06-4c13-97f9-8421738d61ae",
+        "16076920-894b-4ce5-af66-5a926aff5360"
+      ],
+      "example_reviews": [
+        "I do like this app, I started using it for sleeping but now I am gradually ngoing through the courses. I am not sure how it will aid me in my daily life as of yet, but the courses look good so I am hopeful for a positive change. The only gripe is that while course progress is shared across devices, streaks are not. So if you have more than one device your streak cld be lost because you used your other phone for a few days, get a new one and you have to start from scratch.",
+        "Easy to start. Beginners course was very helpful for someone who has never meditated before.",
+        "For me it is the best app for meditation. The simplest easiest to use, not complex nor overwhelming as other apps I tried. I like the minimal appearance and love the voice of the guy who does the guidance"
+      ],
+      "notes": "Refined the theme name to emphasize onboarding and beginner usability. Example text now uses exact raw review wording."
+    },
+    {
+      "group_id": "G4",
+      "theme": "Meditation Content Quality",
+      "review_ids": [
+        "19a29b2c-7db1-4da7-a523-6bdb6cf995ea",
+        "cf2c46d9-40ef-4143-9dcc-2fa0d968fd43",
+        "b789e2f4-4469-4d03-b984-431478812c58"
+      ],
+      "example_reviews": [
+        "Medito, compared to any other and many other applications, has been offering quality guided meditations for free for quite some time now. I have used it for 3 years thus far, I have seen it change over this time. It has been great to have it along for my journey to peace. Edit: Alright. Thanks for the response.",
+        "As a former user of Headspace, I can say that I truly enjoy using this beautiful and well-designed meditation app. It's also genuinely free and I'm never bombarded with ads!",
+        "excellent app free would personally say best out there has ton category guid meditation very easy ui very clean please try out"
+      ],
+      "notes": "Simplified the theme name. Example text now uses exact raw review wording."
+    },
+    {
+      "group_id": "G5",
+      "theme": "Technical Issues and Bugs",
+      "review_ids": [
+        "032da267-54cd-470f-b081-d6c105a1fa19",
+        "04243457-f7c6-4c82-8823-0677eb440406",
+        "f31ecf14-9b04-4e75-b753-ded5f046b267"
+      ],
+      "example_reviews": [
+        "Nag screen did not go away after donating a couple dollars...",
+        "Good app! But unfortunately, whenever my screen goes black, the app also stops. This happens on a Xiaomi phone, there's nothing I can do about it, but you can use a manual timer! Also thanks to the developers for always helping.",
+        "Please add an option to disable swipe gestures, as they interfere with my phone's own navigation gestures."
+      ],
+      "notes": "Clarified the theme. Example text now uses exact raw review wording."
+    },
+    {
+      "group_id": "G6",
+      "theme": "User Feedback and Feature Requests",
+      "review_ids": [
+        "d67ee88b-3421-4be2-a9e6-3a54689f6b70",
+        "7ac3234e-bd56-4924-a409-3416c9635ccd",
+        "0595aa68-046f-401b-b902-e5d159e87954"
+      ],
+      "example_reviews": [
+        "Love you guys. Just one feedback. Could you add a confirmation screen for when clicking \"Sign out\"? Thanks. And maybe a quick, easily accesible \"feedback\" button too.",
+        "Great app! Has been hugely positive for my mental health. One small tidbit of feedback: I'd appreciate a button which marks a specific meditation as completed. I often exit out a few seconds before the audio ends which means it isn't marked as finished and my consistency isn't tracked properly.",
+        "Everything has been fixed by a very attentive technician. I'm really happy. Great and timely response and a wonderful app that I use at least once a day. it was a 5 🌟 2 days ago. the update has ruined my streak. I can't synch across devices anymore. you can't edit stats as before. I've lost my zen 😒"
+      ],
+      "notes": "Renamed from 'Support and Feedback' to better reflect actionable feedback and feature suggestions. Example text now uses exact raw review wording."
+    },
+    {
+      "group_id": "G7",
+      "theme": "Mental Health Benefits",
+      "review_ids": [
+        "aad29bf1-a857-4ec9-9d29-3fa2fa94e28b",
+        "73c1ccfe-22e5-42d2-8bdf-d9bc2c7c3188",
+        "50a52508-b7cc-4330-8955-a20d9c1cebcc"
+      ],
+      "example_reviews": [
+        "it's good to fix your mental health.",
+        "made me calmer and helps me sleep, super grateful for this app.",
+        "has help get over cannabi addiction which am highly grateful"
+      ],
+      "notes": "Kept the theme. Example text now uses exact raw review wording."
+    },
+    {
+      "group_id": "G8A",
+      "theme": "Progress Tracking and Data Persistence",
+      "review_ids": [
+        "3a8afb5f-8f8c-46ca-ba59-d426af625697"
+      ],
+      "example_reviews": [
+        "how to get at 5 Stars except that I had to change devices and I lost track of my progress which is disappointing so no five stars"
+      ],
+      "notes": "Split from the broader original G8 to isolate progress and persistence issues. Example text now uses exact raw review wording."
+    },
+    {
+      "group_id": "G8B",
+      "theme": "Feature Improvements and Updates",
+      "review_ids": [
+        "35be7a6e-e311-425e-a257-8b7f2a56c41c",
+        "f1c3bea3-31a7-4b4d-81e7-7aa1522e92a5"
+      ],
+      "example_reviews": [
+        "This is the only meditation app for me. Straight to the point, visual minimalism, easy to follow, lovely instructors, an option for silent meditation. And with the latest update, everything that ticked me off got fixed: we have streaks that can be frozen (optionally), we can also unable that award system entirely, and if we miss a day but meditated without the app, we can now add it manually (Before that, I used to change my phone's clock so I kept my streak whenever I meditated without the app)",
+        "absolutely amaz app help lot sleep pattern only thing would add could feature make queue multiple different meditation personally cannot fall asleep quickly frequently loop play multiple meditation every time go sleep would love could avoid open phone while try relax change meditation overall no complaint"
+      ],
+      "notes": "Split from original G8 to separate general feature/update praise from progress-sync issues. Example text now uses exact raw review wording."
+    },
+    {
+      "group_id": "G10",
+      "theme": "Habit Formation and Daily Engagement",
+      "review_ids": [
+        "24300b64-c3c1-4365-9aba-7584641ae812",
+        "c59528b3-f759-4d00-9e80-5108728c0697",
+        "8ba4f39b-10ee-4950-a185-881fd1569b93"
+      ],
+      "example_reviews": [
+        "Do it every single day to get clarity and the streaks will help👍....... Thanks Medito",
+        "Absolutely would recommend! Use this daily for my meditations as has helped me a lot.",
+        "I joined Medito some years ago, left because I moved on from it, then came back a year or two later. Now coming back to the app, it's even better than when I first used it. Medito is a great option for a meditation app, having endless resources to guide you on your walk in meditation. I will certainly be using this app for a long time, and if you're looking for a meditation app, this is an amazing one to consider."
+      ],
+      "notes": "Renamed the group to focus on consistency and long-term engagement. Example text now uses exact raw review wording."
+    },
+    {
+      "group_id": "G11",
+      "theme": "Residual Uncategorized Reviews",
+      "review_ids": [
+        "07d31de2-d356-4b76-bc5b-0e67997293a4",
+        "0812e677-4bc8-4bfa-9d36-13a1aa22167e",
+        "20073fc6-a2bc-41a7-b638-f4bd128a23ed"
+      ],
+      "example_reviews": [
+        "am really grateful app look free meditation app kickstart meditation journey install app now without second thought great team thank mak world better place",
+        "beautiful and it's free. the day I get a job I'm giving them my first pay :)",
+        "really glad found app replacement headspace which has sadly fallen into degradation app exactly what need simple yet extensive library"
+      ],
+      "notes": "Reduced the original uncategorized bucket and kept only a small residual group. Example text now uses exact raw review wording."
     }
   ]
 }
